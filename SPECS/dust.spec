@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name:           dust
-Version:        0.5.2
+Version:        0.5.3
 Release:        1%{?dist}
 Summary:        du + rust = dust. Like du but more intuitive
 Group:          Applications/System
@@ -41,6 +41,9 @@ rm -rf %{buildroot}
 /usr/bin/dust
 
 %changelog
+* Mon Sep 7 2020 Jamie Curnow <jc@jc21.com> - 0.5.3-1
+- v0.5.3
+
 * Mon Aug 3 2020 Jamie Curnow <jc@jc21.com> - 0.5.2-1
 - v0.5.2
 
