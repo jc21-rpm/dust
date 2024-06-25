@@ -2,7 +2,7 @@
 
 Name:           dust
 Version:        1.0.0
-Release:        1
+Release:        1%{?dist}
 Summary:        du + rust = dust. Like du but more intuitive
 Group:          Applications/System
 License:        GPLv2
