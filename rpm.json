@@ -1,4 +1,5 @@
 {
+  "toolchain": "rust",
   "publish": {
     "PACKAGE": "dust",
     "GH_USER": "jc21-rpm",
